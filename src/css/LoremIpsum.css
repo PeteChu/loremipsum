@@ -1,0 +1,20 @@
+.lorem {
+    align-self: center;
+    background-color: #a8a7a7;
+    min-width: 70%;
+    height: 300px;
+    border: 1em;
+    border-radius: 5px;
+    border-color: black;
+    margin: 10em;
+    padding: 1em;
+}
+
+.lorem-text {
+    text-align: start;
+    white-space: pre-wrap;
+}
+
+.scroll {
+    overflow: scroll;
+}
