@@ -1,4 +1,5 @@
 .lorem {
+    position: relative;
     align-self: center;
     background-color: #a8a7a7;
     min-width: 70%;
@@ -8,13 +9,17 @@
     border-color: black;
     margin: 10em;
     padding: 1em;
-}
-
-.lorem-text {
     text-align: start;
     white-space: pre-wrap;
 }
 
+
 .scroll {
     overflow: scroll;
+}
+
+#copyToClipboard {
+    position: absolute;
+    right: 0;
+    top: 0;
 }
